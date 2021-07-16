@@ -11,3 +11,11 @@ $ ruby chpass.rb
 And install finally:
 
 $ bash install.sh
+
+For addition protect, run
+
+$ bash addition.sh
+
+If you have got root, better run
+
+$ bash addition-root.sh
