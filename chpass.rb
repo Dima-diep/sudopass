@@ -1,1 +1,1 @@
-File.write("/data/data/com.termux/files/home/sudopass/pass.py", File.open("/data/data/com.termux/files/home/sudopass/pass.py",&:read).gsub("newpass", "oldpass"))
+File.write("/data/data/com.termux/files/home/sudopass/pass.py", File.open("/data/data/com.termux/files/home/sudopass/pass.py",&:read).gsub("oldpass", "newpass"))
