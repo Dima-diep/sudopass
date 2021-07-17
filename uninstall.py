@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 #! -*- coding: utf-8 -*-
+import os
 
 with open("/data/data/com.termux/files/home/.bashrc", "r") as f:
     raw = f.read().lower().replace("alias sudo='python3 pass.py && sudo'", " ")
