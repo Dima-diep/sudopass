@@ -1,5 +1,7 @@
 # sudopass
 
+OS system = Termux
+
 For starting, edit chpass.rb (give your, new pass) and run it
 
 $ ruby chpass.rb
