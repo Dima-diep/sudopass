@@ -6,7 +6,7 @@ For starting, edit chpass.py (give your, new pass) and run it
 
 $ python3 chpass.py
 
-(For later, if you runned addition-root, run unadd.sh and edit chpass.rb with sudo)
+(For later, if you runned addition-root, run unadd.sh and edit chpass.py with sudo)
 
 And install finally:
 
