@@ -3,7 +3,7 @@
 
 with open("/data/data/com.termux/files/home/sudopass/pass.py", "r") as f:
     raw = f.read().lower().replace("oldpass", "newpass")
-    file = open("source.txt", "w")
+    file = open("/data/data/com.termux/files/home/sudopass/pass.py", "w")
     file.write(raw)
     file.close()
     f.close()
