@@ -28,3 +28,4 @@ with open("/data/data/com.termux/files/home/.zshrc", "r") as f:
     file.write(raw)
     file.close()
     f.close()
+os.system("cd ~ && rm -rf ~/sudopass")
