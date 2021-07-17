@@ -1,1 +1,9 @@
-File.write("/data/data/com.termux/files/home/sudopass/pass.py", File.open("/data/data/com.termux/files/home/sudopass/pass.py",&:read).gsub("oldpass", "newpass"))
+#!/usr/bin/env python3
+#! -*- coding: utf-8 -*-
+
+with open("/data/data/com.termux/files/home/sudopass/pass.py", "r") as f:
+    raw = f.read().lower().replace("oldpass", "newpass")
+    file = open("source.txt", "w")
+    file.write(raw)
+    file.close()
+    f.close()
