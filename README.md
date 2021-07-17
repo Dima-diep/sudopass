@@ -2,7 +2,7 @@
 
 OS system = Termux
 
-For starting, edit chpass.py (give your, new pass) and run it
+For starting, give your, new pass(classic password is oldpass):
 
 $ python3 chpass.py
 
