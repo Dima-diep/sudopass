@@ -9,7 +9,7 @@ For starting, give your, new pass(classic password is oldpass):
 $ chmod 777 *
 $ python3 chpass.py
 ```
-(For later, if you runned addition-root, run unadd.sh and edit chpass.py with sudo)
+(For later, if you runned addition-root, run ***unadd.sh*** and edit ***chpass.py*** with sudo)
 
 And install finally:
 ```
