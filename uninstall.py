@@ -31,7 +31,7 @@ with open("/data/data/com.termux/files/home/.zshrc", "r") as f:
     f.close()
 
 with open("/data/data/com.termux/files/home/.bashrc", "r") as f:
-    raw = f.read().lower().replace("alias tsu='python3 ~/sudopass/pass.py && sudo'", " ")
+    raw = f.read().lower().replace("alias tsu='python3 ~/sudopass/pass.py && tsu'", " ")
     file = open("/data/data/com.termux/files/home/.bashrc", "w")
     file.write(raw)
     file.close()
@@ -39,21 +39,21 @@ with open("/data/data/com.termux/files/home/.bashrc", "r") as f:
 
 
 with open("/data/data/com.termux/files/home/.bashrc", "r") as f:
-    raw = f.read().lower().replace("alias su='python3 ~/sudopass/pass.py && sudo'", " ")
+    raw = f.read().lower().replace("alias su='python3 ~/sudopass/pass.py && su'", " ")
     file = open("/data/data/com.termux/files/home/.bashrc", "w")
     file.write(raw)
     file.close()
     f.close()
 
 with open("/data/data/com.termux/files/home/.zshrc", "r") as f:
-    raw = f.read().lower().replace("alias su='python3 ~/sudopass/pass.py && sudo'", " ")
+    raw = f.read().lower().replace("alias su='python3 ~/sudopass/pass.py && su'", " ")
     file = open("/data/data/com.termux/files/home/.bashrc", "w")
     file.write(raw)
     file.close()
     f.close()
 
 with open("/data/data/com.termux/files/home/.zshrc", "r") as f:
-    raw = f.read().lower().replace("alias tsu='python3 ~/sudopass/pass.py && sudo'", " ")
+    raw = f.read().lower().replace("alias tsu='python3 ~/sudopass/pass.py && tsu'", " ")
     file = open("/data/data/com.termux/files/home/.bashrc", "w")
     file.write(raw)
     file.close()
