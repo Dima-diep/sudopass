@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 #! -*- coding: utf-8 -*-
+
+print("Write pass by 'pass' (not pass)")
 print("Old password:")
 a = input()
-print(New password:")
+print("New password:")
 b = input()
 
 with open("/data/data/com.termux/files/home/sudopass/pass.py", "r") as f:
